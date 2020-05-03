@@ -23,10 +23,10 @@ require('./models/post')
 require('./models/booking')
 
 app.use(express.json())
-app.use(require('./routes/auth'))
-app.use(require('./routes/post'))
-app.use(require('./routes/user'))
-app.use(require('./routes/booking'))
+app.use(require('./controllers/auth'))
+app.use(require('./controllers/post'))
+app.use(require('./controllers/user'))
+app.use(require('./controllers/booking'))
 
 
 app.listen(PORT,()=>{
