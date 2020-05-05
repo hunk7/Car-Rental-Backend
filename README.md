@@ -1,7 +1,7 @@
 PostMan | https://www.getpostman.com/collections/4f1e0439255a518a6380
 
 http://localhost:5000/signin
-
+```
 {
 	"email":"rex@gmail.com",
 	"password":"12345"
@@ -15,9 +15,9 @@ http://localhost:5000/signin
         "email": "test@gmail.com"
     }
 }
-
+```
 http://localhost:5000/addcar
-
+```
 {
 	"carname":"Honda City ",
 	"colour":"Red",
@@ -51,9 +51,9 @@ http://localhost:5000/addcar
         "__v": 0
     }
 }
-
+```
 http://localhost:5000/viewcar
-
+```
 {
     "mypost": [
         {
@@ -88,9 +88,9 @@ http://localhost:5000/viewcar
         }
     ]
 }
-
+```
 http://localhost:5000/bookcar/5eadde0ab306461f1cc1dae7
-
+```
 {
     "_id": "5eadde0ab306461f1cc1dae7",
     "username": "Gary",
@@ -103,9 +103,9 @@ http://localhost:5000/bookcar/5eadde0ab306461f1cc1dae7
     "updatedAt": "2020-05-02T20:24:34.060Z",
     "__v": 0
 }
-
+```
 http://localhost:5000/viewcarsbooked
-
+```
 {
     "mypost": [
         	{
@@ -134,9 +134,9 @@ http://localhost:5000/viewcarsbooked
 		}
 	]
 }
-
+```
 http://localhost:5000/updatecar/5eadde0ab306461f1cc1dae7
-
+```
 {
     "_id": "5eadde0ab306461f1cc1dae7",
     "carname": "Honda City 2",
@@ -152,9 +152,9 @@ http://localhost:5000/updatecar/5eadde0ab306461f1cc1dae7
     "updatedAt": "2020-05-02T20:24:34.060Z",
     "__v": 0
 }
-
+```
 http://localhost:5000/deletecar/5eadde0ab306461f1cc1dae7
-
+```
 {"message":"Post deleted successfully!"}
-
+```
 
