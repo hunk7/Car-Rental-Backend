@@ -5,7 +5,7 @@ const bookSchema = new mongoose.Schema({
         type:String,
         required:true
     },
-    contactnumber:{
+    contactnum:{
         type:String,
         required:true
     },
